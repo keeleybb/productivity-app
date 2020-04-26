@@ -2,11 +2,11 @@
 
 ## Links
 
-(Presentation)[https://docs.google.com/presentation/d/1SRm1DprYY_IBzjO_Dwj-uU3qPn8UIAE-iWoOJM_YxVY/edit?ts=5e9e4b57#slide=id.g83dacafeb9_0_44]
+[Presentation](https://docs.google.com/presentation/d/1SRm1DprYY_IBzjO_Dwj-uU3qPn8UIAE-iWoOJM_YxVY/edit?ts=5e9e4b57#slide=id.g83dacafeb9_0_44)
 
-(Heroku)[http://surata-app.herokuapp.com/]
+[Heroku](http://surata-app.herokuapp.com/)
 
-(GitHub)[https://github.com/Inbary-s/productivity-app]
+[GitHub](https://github.com/Inbary-s/productivity-app)
 
 ## Description of app and process of creating it
 
@@ -39,7 +39,9 @@ The user is able to:
 
   * React-Sound
 
-  The React-Sound NPM contains an awesome Sound component that allows you to easily build the ability to play and control sound clips in your code. "Dunes" is provided with a Public Domain license at (Andrewkn's freesound link)[https://freesound.org/people/Andrewkn/sounds/447511/]. "Throat Singing" is provided with an Attribution License from (Metzik's freesound link)[https://freesound.org/people/Metzik/sounds/244155/]; it has been modified into a .mp3 file. "Quartz Crystal Singing Bowls" is provided with Attribution License from (juskiddink's freesound link)[https://freesound.org/people/juskiddink/sounds/129219/]; it has been modified into a .mp3 file. 
+  The React-Sound NPM contains an awesome Sound component that allows you to easily build the ability to play and control sound clips in your code. "Dunes" is provided with a Public Domain license at [Andrewkn's freesound link](https://freesound.org/people/Andrewkn/sounds/447511/). "Throat Singing" is provided with an Attribution License from [Metzik's freesound link](https://freesound.org/people/Metzik/sounds/244155/); it has been modified into a .mp3 file. "Quartz Crystal Singing Bowls" is provided with Attribution License from [juskiddink's freesound link](https://freesound.org/people/juskiddink/sounds/129219/); it has been modified into a .mp3 file. 
+
+![Demo of Surata Productivity Web App] (/client/public/images/surata.gif)
 
 ## My Goals
 
