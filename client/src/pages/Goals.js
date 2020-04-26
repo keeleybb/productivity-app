@@ -84,8 +84,8 @@ function Goals() {
                                         <input onChange={handleInputChange} type="date" name="targetDate" id="targetDate" value={formObject.targetDate} style={{ width: "100%", margin: "0px 0px", fontSize: ".95rem" }} />
                                     </div>
                                     <div className="col s12 m12 l3">
-                                        <button className="waves-effect waves-light btn-small button-gold button-margin "
-                                            disabled={!(formObject.goal)}
+                                        <button className="waves-effect waves-light btn-small button-gold button-margin"
+                                            disabled={!formObject.goal || !formObject.targetDate}
                                             onClick={handleFormSubmit}>
                                             Add&nbsp;Goal</button>                                    </div>
                                 </div>

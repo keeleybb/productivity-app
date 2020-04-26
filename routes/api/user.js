@@ -6,7 +6,7 @@ const passport = require('../../config/passport');
 // /api/user - get all users
 router.get("/", (req, res, next) => {
     console.log("===== user!!======");
-    console.log(req.user);
+    console.log("reg-user: ", req.user);
     if (req.user) {
         res.json({ user: req.user });
     } else {

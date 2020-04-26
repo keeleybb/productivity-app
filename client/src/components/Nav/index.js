@@ -12,8 +12,7 @@ const Nav = (props) => {
       window.location.assign("/");
     });
   };
-  // console.log("Propsuser: ", props.username)
-  // ${user.username}
+
 
   let slide = useRef(null);
 
@@ -38,7 +37,7 @@ const Nav = (props) => {
         <div className="nav-wrapper">
           <a href="#" data-target="slide-out" className="sidenav-trigger show-on-med"><i className="material-icons">menu</i></a>
           <a href="/" class="brand-logo">
-            {user ? `Hi ${user.username}, Welcome To ` : ""} Surată
+            Surată
           </a>
 
           <ul className="right hide-on-med-and-down active">

@@ -11,10 +11,13 @@ export default function GoalList(props) {
         var goalDate = moment(targetDate)
         // console.log("number of days: ", goalDate.diff(currentDate, "days", true));
         //return the right message for days left
-        if (goalDate.diff(currentDate, "days", true) > 0) {
-            return parseInt(goalDate.diff(currentDate, "days", true) + 1) + " days"
-        } else if (goalDate.diff(currentDate, "days") === 0) {
+        if (moment(targetDate).format("MMM Do YY") === moment().format("MMM Do YY")) {
             return "Due Today"
+        } else if (goalDate.diff(currentDate, "days", true) > 0) {
+            // return parseFloat(goalDate.diff(currentDate, "days", true)) + " days"
+            // return parseFloat(goalDate.diff(currentDate, "days", true)) + " days"
+            return Math.round(parseFloat(goalDate.diff(currentDate, "days", true))) + " days"
+            // return parseInt(goalDate.diff(currentDate, "days", true)) + " days"
         } else {
             return "Past Due"
         }

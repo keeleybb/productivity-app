@@ -12,8 +12,7 @@ module.exports = {
             .catch(err => res.status(422).json(err));
     },
     findById: function (req, res) {
-        // console.log("req.user", req.user)
-        console.log('NWA Straight outta compton')
+        // // console.log("req.user", req.user)
         db.Goal
             .find({ author: req.user._id })
             .sort({ createdAt: -1 })
