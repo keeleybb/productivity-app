@@ -41,7 +41,7 @@ The user is able to:
 
   The React-Sound NPM contains an awesome Sound component that allows you to easily build the ability to play and control sound clips in your code. "Dunes" is provided with a Public Domain license at [Andrewkn's freesound link](https://freesound.org/people/Andrewkn/sounds/447511/). "Throat Singing" is provided with an Attribution License from [Metzik's freesound link](https://freesound.org/people/Metzik/sounds/244155/); it has been modified into a .mp3 file. "Quartz Crystal Singing Bowls" is provided with Attribution License from [juskiddink's freesound link](https://freesound.org/people/juskiddink/sounds/129219/); it has been modified into a .mp3 file. 
 
-![Demo of Surata Productivity Web App] (/client/public/images/surata.gif)
+![Demo of Surata Productivity Web App](/client/public/images/surata.gif)
 
 ## My Goals
 
