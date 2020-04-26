@@ -6,8 +6,6 @@
 
 [Heroku](https://surata-goals.herokuapp.com)
 
-[GitHub](https://github.com/Inbary-s/productivity-app)
-
 ## Description of app and process of creating it
 
   * As a busy person trying to keep track of my personal and professional progress, I want to be able to track my goals and the tasks neccessary to achieve them. I also want to make sure I take time to recenter through meditation so that I am better prepared to reach my goals stress free.
