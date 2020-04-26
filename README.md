@@ -4,7 +4,7 @@
 
 [Presentation](https://docs.google.com/presentation/d/1SRm1DprYY_IBzjO_Dwj-uU3qPn8UIAE-iWoOJM_YxVY/edit?ts=5e9e4b57#slide=id.g83dacafeb9_0_44)
 
-[Heroku](http://surata-app.herokuapp.com/)
+[Heroku](https://surata-goals.herokuapp.com)
 
 [GitHub](https://github.com/Inbary-s/productivity-app)
 
