@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import API from "../utils/API";
-import GoalList from "../components/GoalList"
+import Tabs from "../components/Tabs/Tabs.js"
 import "./Goals.css"
 import { Row } from "../components/Grid";
 import userContext from '../utils/userContext'
@@ -93,10 +93,7 @@ function Goals() {
                         </div>
                     </Row>
                     <div className="row">
-                        {goals.map(goal => {
-                            // console.log(goals.Tasks)
-                            return <GoalList goal={goal} tasks={goal.Tasks} key={goal._id} goalId={goal._id} loadGoals={loadGoals} deleteGoal={deleteGoal} />
-                        })}
+                        <Tabs goals={goals} loadGoals={loadGoals} deleteGoal={deleteGoal} />
                     </div>
 
                 </div>

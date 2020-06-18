@@ -6,7 +6,7 @@
 
 [Heroku](https://surata-goals.herokuapp.com)
 
-## Description of app and process of creating it
+## Description of app and process
 
   * As a busy person trying to keep track of my personal and professional progress, I want to be able to track my goals and the tasks neccessary to achieve them. I also want to make sure I take time to recenter through meditation so that I am better prepared to reach my goals stress free.
 
